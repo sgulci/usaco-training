@@ -55,6 +55,18 @@ while (cin >> x) {
 - file input output 
 
 ```
+#include <cstdio>
+
 freopen("input.txt", "r", stdin);
 freopen("output.txt", "w", stdout);
+
+
+or 
+
+#include <fstream>
+
+ifstream fin("template.in");
+ofstream fout("template.out");
 ```
+
+- 
