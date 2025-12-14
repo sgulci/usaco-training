@@ -1,6 +1,6 @@
 # Compiler and flags
 CXX := g++
-CXXFLAGS := -std=c++11 -Wall -Wextra -O2
+CXXFLAGS := -std=c++17 -Wall -Wextra -O2
 
 # Output directory
 OUT_DIR := out
